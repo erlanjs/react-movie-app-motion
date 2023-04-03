@@ -1,12 +1,12 @@
 import "./App.css";
-import { MDBIcon } from "mdb-react-ui-kit";
 import Layout from "./component/layout";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <div>
       <Layout>
-        <div></div>
+        <Home />
       </Layout>
     </div>
   );
