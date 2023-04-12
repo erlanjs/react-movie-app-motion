@@ -4,6 +4,8 @@ import Card from "../../component/ui/card/Card";
 import Banner from "../../component/ui/banner/Banner";
 import Pagination from "../../component/ui/pagination/Pagination";
 import Spiner from "../../svg/Spiner";
+import TvShow from "../../component/tvShow/TvShow";
+import Popup from "../../component/ui/popap/Popup";
 
 export default function Home() {
   const [movies, setMovies] = useState([]);
@@ -69,6 +71,7 @@ export default function Home() {
           />
         </>
       )}
+      {selectedTab === 2 && <TvShow />}
     </div>
   );
 }

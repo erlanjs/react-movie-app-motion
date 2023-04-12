@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className="flex">
       <LeftNavBar />
-      <div className="ml-[210px] mr-[260px]">{children}</div>
+      <div className="ml-[200px] mr-[250px] flex w-full h-full">{children}</div>
       <RightNavBar />
     </div>
   );
